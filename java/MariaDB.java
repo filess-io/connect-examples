@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class MySQL {
+public class MariaDB {
     public static final String driver = "com.mysql.jdbc.Driver";
     private String url;
     private String username;
@@ -18,7 +18,7 @@ public class MySQL {
      * @param username
      * @param password
      */
-    public MySQL(String hostname, String database, String port, String username, String password) {
+    public MariaDB(String hostname, String database, String port, String username, String password) {
         this.username = username;
         this.password = password;
 
