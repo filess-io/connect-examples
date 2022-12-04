@@ -1,4 +1,4 @@
-# filess.io Connection examples
+# filess.io connection examples
 A repository of code examples to connect to multiple database engines.
 
 ## Contributing
